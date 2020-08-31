@@ -1,13 +1,13 @@
 // console.log("hello")
 function calculate(total, tip){
     let calculation = (((total * tip)/100).toFixed(2))
-    displayResults(calculation)
+    displayResults('$' + calculation)
 }
 
 function displayResults(totalAmount){
     // console.log(totalAmount)
     let span = document.getElementById('total')
-    span.innerHTML = `$${totalAmount}`
+    span.innerHTML = `${totalAmount}`
     // let container = document.querySelector('.container1')
     // let div = document.createElement('div')
     // div.innerHTML = `<h3>${totalAmount}</h3>`;
