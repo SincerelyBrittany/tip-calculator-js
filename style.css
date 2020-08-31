@@ -1,3 +1,14 @@
 h1{
     color:blue;
+    text-align:center;
+    /* display: inline-block; */
+}
+
+.container1{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 130px;
+    padding: 20px;
 }
