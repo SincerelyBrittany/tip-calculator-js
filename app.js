@@ -2,7 +2,10 @@
 function calculate(total, tip){
     let calculation = ((total * tip)/100)
     console.log(calculation)
-    
+    let container = document.querySelector('.container1')
+    let div = document.createElement('div')
+    div.innerHTML = `<h3>${calculation}</h3>`;
+    container.append(div)
 }
 
 let form = document.querySelector('form')
